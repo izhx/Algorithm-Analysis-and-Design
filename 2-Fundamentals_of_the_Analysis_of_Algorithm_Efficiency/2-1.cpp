@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// 1.3
+// 2.1
 // P36
 int SequentialSearch(vector<int> a, int k) {
     int i = 0, n = a.size();
