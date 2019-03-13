@@ -4,6 +4,7 @@ Implementation of some algorithms from *"Introduction to the Design and Analysis
 ## Directory Description
 - **IDAA:** Introduction to the Design and Analysis of Algorithms.
 - **IA:** Introduction to Algorithms.
+- **Assignments:** course assignment.
 
 ## Environment
 - Mingw-w64 6.0 i686-8.1.0
