@@ -5,7 +5,7 @@ using namespace std;
 
 // P133 merge sort
 template<typename T>
-void Merge(vector<T> B, vector<T> C, vector<T> &A) {
+void Merge(const vector<T> &B, const vector<T> &C, vector<T> &A) {
     int i = 0, j = 0, k = 0, p = B.size(), q = C.size();
     while (i < p && j < q)
         if (B[i] <= C[j]) A[k++] = B[i++];

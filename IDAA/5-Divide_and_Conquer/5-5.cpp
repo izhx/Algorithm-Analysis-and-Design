@@ -9,12 +9,12 @@ using namespace std;
 struct Point {
     double x, y;
 
-    double d2(Point p) {
+    double d2(const Point &p) {
         return (x - p.x) * (x - p.x) + (y - p.y) * (y - p.y);
     }
 };
 
-double EfficientClosetPair(vector<Point> P) {
+double EfficientClosetPair(vector<Point> &P) {
     double d = 2147483647;
     int n = P.size(), i = 0, j = 1;
     if (n <= 3) {  // brute force
